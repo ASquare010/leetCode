@@ -1,4 +1,3 @@
-#include "print.h"
 #include "baseSorting.h"
 
 
@@ -89,19 +88,22 @@ bool palindrome(const string val) {
 
 void baseSorting() {
 
+    print("\n");
     vector<int> arr = { 9,0,7,4,2,5,6,8,1,3 };    
     arr = insertionSort(arr);
-    printVector("insertionSort", arr);
+    printVector("insertionSort: ", arr);
 
-
+    print("\n");
 
     arr = { 9,0,7,4,2,5,6,8,1,3 };
     arr = selectionSort(arr);
-    printVector("selectionSort", arr);
+    printVector("selectionSort: ", arr);
 
-
+    print("\n");
 
     arr = { 9,0,7,4,2,5,6,8,1,3 };
     arr = bubbleSort(arr);
-    printVector("bubbleSort", arr);
+    printVector("bubbleSort: ", arr);
+
+    print("\n");
 }

@@ -18,13 +18,16 @@
     <ClCompile Include="baseSorting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="print.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="twoSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="baseSorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="palindrome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

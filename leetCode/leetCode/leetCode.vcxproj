@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{27b67dd1-93f9-49e0-a753-5010b289fe4d}</ProjectGuid>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectGuid>{f2d92dcc-9763-4fb0-94af-c73a0c06cfbd}</ProjectGuid>
+    <RootNamespace>leetCode</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>leetCode</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,14 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="baseSorting.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="print.cpp" />
+    <ClCompile Include="palindrome.cpp" />
     <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="print.h" />
     <ClInclude Include="baseSorting.h" />
+    <ClInclude Include="palindrome.h" />
+    <ClInclude Include="print.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
