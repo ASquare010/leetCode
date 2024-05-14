@@ -1,10 +1,9 @@
-#include "print.h"
-#include "palindrome.h"
 
+#include "romanToInt.h"
 
 
 int main() {
 
-    palindrome();
+    romanToInt();
 
 }

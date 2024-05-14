@@ -131,10 +131,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="print.cpp" />
     <ClCompile Include="palindrome.cpp" />
+    <ClCompile Include="romanToInt.cpp" />
     <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="baseSorting.h" />
+    <ClInclude Include="romanToInt.h" />
+    <ClInclude Include="twoSum.h" />
     <ClInclude Include="palindrome.h" />
     <ClInclude Include="print.h" />
   </ItemGroup>

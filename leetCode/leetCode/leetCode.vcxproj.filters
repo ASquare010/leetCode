@@ -30,6 +30,9 @@
     <ClCompile Include="palindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="romanToInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="print.h">
@@ -39,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="palindrome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="twoSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="romanToInt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
