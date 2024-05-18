@@ -14,5 +14,10 @@ void print(T&& first, Args&... rest) {
     print(forward<Args>(rest)...);
 }
 
-void printVector(vector<int> arr);
+template<typename T>
+void printVector(vector<T> arr){
+    for (const auto& element : arr) {
+        print(element);
+    }
+}
 void printVector(string fxName, vector<int> arr);
